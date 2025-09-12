@@ -79,8 +79,7 @@ int parseNode() {
             expr++; // '(' 소비
             int childCount = 0;
             int r = parseChildren(&childCount);
-            if (r != 1) {
-                // parseChildren leaves ')' for parent; we must consume it before returning
+            if (r != 1) { 
                 skipSpace();
                 if (*expr != ')') return r == -1 ? -1 : r;
                 expr++; // ')' 소비
