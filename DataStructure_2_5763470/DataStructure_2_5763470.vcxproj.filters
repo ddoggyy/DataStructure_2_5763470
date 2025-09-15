@@ -21,13 +21,8 @@
     <ClCompile Include="5763470_이상민_과제2_BinaryTree.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="과제1_코드.c">
+    <ClCompile Include="5763470_이상민_과제1.5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BinaryTree.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
