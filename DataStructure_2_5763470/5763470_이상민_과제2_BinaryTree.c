@@ -18,11 +18,10 @@ char arr[10000];
 int maxArrIndex = 0;
 
 Node* createNode(char c) {
-    Node* n = (Node*)malloc(sizeof(Node));
-    if (!n) { perror("malloc"); exit(1); }
-    n->data = c; n->left = n->right = NULL;
+    Node* newNode = (Node*)malloc(sizeof(Node));
+    newNode->data = c; newNode->left = newNode->right = NULL;
     totalNodes++;
-    return n;
+    return newNode;
 }
 
 void skipSpaces() {
