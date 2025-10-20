@@ -33,5 +33,8 @@
     <ClCompile Include="5763470_이상민_과제4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5763470_이상민_과제5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
