@@ -148,7 +148,10 @@
     <ClCompile Include="5763470_이상민_과제6.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="5763470_이상민_과제7.c" />
+    <ClCompile Include="5763470_이상민_과제7.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="5763470_이상민_과제8.c" />
     <ClCompile Include="ArrayBasedBinaryTree.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
